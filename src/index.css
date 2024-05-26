@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    p {
+        @apply text-[1.6rem] font-medium
+    }
+
+    h1 {
+        @apply text-8xl font-semibold
+    }
+
+    h2 {
+        @apply text-lg font-medium
+    }
+}
