@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import WindArrow from "./components/WindArrow";
 
 function App() {
 	const [data, setData] = useState({});
