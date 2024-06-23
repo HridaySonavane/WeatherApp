@@ -62,13 +62,13 @@ function App() {
 	return (
 		<div className="app w-screen h-screen relative bg-[rgba(0,0,0,0.4)] text-white overflow-hidden ">
 			<img
-				src="https://img.freepik.com/free-photo/digital-art-isolated-house_23-2151041282.jpg?t=st=1716466644~exp=1716470244~hmac=ff74d8a5aadd300e015c99c13c50ae1a09c52b09af77945205fb1964c671b864&w=1380"
+				src="https://img.freepik.com/premium-photo/game-landscape-with-sea-background_615096-16768.jpg?w=740"
 				className="absolute w-full h-full top-0 left-0 z-[-1] object-cover object-center bg-no-repeat "
 				alt=""
 			/>
 			<div className="search h-20 flex justify-center items-center">
 				<input
-					className="text-white h-12 w-80 p-4 rounded-full bg-black/40 focus:shadow focus:shadow-[#924564] focus:outline-none transition-shadow"
+					className="text-white h-12 w-80 p-4 rounded-full bg-black/40 focus:shadow focus:shadow-[#924564] focus:outline-none transition-shadow duration-300"
 					type="text"
 					value={location}
 					onChange={(event) => setLocation(event.target.value)}
